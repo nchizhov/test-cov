@@ -5,18 +5,12 @@ use PHPUnit\Framework\TestCase;
 
 class CalculatorTest extends TestCase {
 
-  /**
-   * @covers Calculator::add
-   */
   public function testAddOperation(): void {
     $adder = new Calculator("add");
     $value = $adder->evaluate(2, 3);
     $this->assertEquals(5, $value);
   }
 
-  /**
-   * @covers Calculator::subtract
-   */
   public function testSubtractOperation(): void {
     $subtract = new Calculator("subtract");
     $value = $subtract->evaluate(2, 3);
