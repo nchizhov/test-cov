@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<phpunit xmlns="https://schema.phpunit.de/coverage/1.0">
+  <build time="Sat Jul 9 12:58:22 UTC 2022" phpunit="9.5.21" coverage="9.2.15">
+    <runtime name="PHP" version="7.4.30" url="https://secure.php.net/"/>
+    <driver name="xdebug" version="3.1.2"/>
+  </build>
+  <project source="/home/nikolay/php/cov-test/src">
+    <tests>
+      <test name="CalculatorTest::testSubtractOperation" size="unknown" result="0" status="PASSED"/>
+      <test name="CalculatorTest::testAddOperation" size="unknown" result="0" status="PASSED"/>
+    </tests>
+    <directory name="/">
+      <totals>
+        <lines total="29" comments="0" code="29" executable="6" executed="5" percent="83.33"/>
+        <methods count="5" tested="4" percent="80.00"/>
+        <functions count="0" tested="0" percent="0"/>
+        <classes count="1" tested="0" percent="0.00"/>
+        <traits count="0" tested="0" percent="0"/>
+      </totals>
+      <file name="Calculator.php" href="Calculator.php.xml">
+        <totals>
+          <lines total="29" comments="0" code="29" executable="6" executed="5" percent="83.33"/>
+          <methods count="5" tested="4" percent="80.00"/>
+          <functions count="0" tested="0" percent="0"/>
+          <classes count="1" tested="0" percent="0.00"/>
+          <traits count="0" tested="0" percent="0"/>
+        </totals>
+      </file>
+    </directory>
+  </project>
+</phpunit>

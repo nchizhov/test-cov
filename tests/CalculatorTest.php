@@ -3,6 +3,9 @@
 use App\Calculator;
 use PHPUnit\Framework\TestCase;
 
+/**
+ * @covers \App\Calculator
+ */
 class CalculatorTest extends TestCase {
 
   public function testAddOperation(): void {
